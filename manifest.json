@@ -7,6 +7,10 @@
     "default_icon": "camera-icon.png",
     "default_popup": "popup.html"
   },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "content-scripts": "*"[{
     "messages": ["*"],
     "js": ["popup.js"]
