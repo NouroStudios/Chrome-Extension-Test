@@ -7,5 +7,8 @@
     "default_icon": "camera-icon.png",
     "default_popup": "popup.html"
   },
+  "content-scripts": "*"[{
+    "messages": ["*"]
+  }]
   "permissions": ["activeTab"]
 }
