@@ -9,6 +9,7 @@
   },
   "content-scripts": "*"[{
     "messages": ["*"]
+    "js": ["popup.js"]
   }],
   "permissions": ["activeTab"]
 }
