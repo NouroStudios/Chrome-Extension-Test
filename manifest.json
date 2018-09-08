@@ -9,6 +9,6 @@
   },
   "content-scripts": "*"[{
     "messages": ["*"]
-  }]
+  }],
   "permissions": ["activeTab"]
 }
